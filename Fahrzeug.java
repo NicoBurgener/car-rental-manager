@@ -1,17 +1,17 @@
 public class Fahrzeug {
    protected String marke;
     protected String modell;
-    protected double kmStand;
+    protected int kmStand;
 
-    public  Fahrzeug(){
+    public  Fahrzeug(String marke, String modell, int kmStand){
        this.marke = marke;
        this.modell = modell;
        this.kmStand = kmStand;
     }
-    public double getKmStand(){
+    public int getKmStand(){
         return kmStand;
     }
-    public void setKmStand(double kmStand){
+    public void setKmStand(int kmStand){
         this.kmStand = kmStand;
     }
 }
