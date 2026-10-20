@@ -6,6 +6,12 @@ public class Auto extends Fahrzeug {
         super(marke, modell, kmStand);
         this.lastServiceKm = kmStand;
     }
+
+    public Auto(String marke, String modell, int kmStand, int lastServiceKm, boolean istVermietet){
+        super(marke, modell, kmStand);
+        this.lastServiceKm = lastServiceKm;
+        this.istVermietet = istVermietet;
+    }
     public boolean mieten(){
         if(!istVermietet){
             istVermietet = true;

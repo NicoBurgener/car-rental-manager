@@ -1,0 +1,2 @@
+BMW;I8;1012;1000;false
+Skoda;Octavio;39000;39000;false
